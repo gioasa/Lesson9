@@ -11,11 +11,11 @@
 @media (max-width: 1200px) {
     .main-head {
         width: 450px;
-        font-size: 50px;
+        font-size: 60px;
     }
     .top-text {
         width: 410px;
-        font-size: 22px;
+        font-size: 25px;
     }
 }
 
@@ -23,11 +23,12 @@
 @media (max-width: 550px) {
     .main-head {
         width: 350px;
-        font-size: 40px;
+        font-size: 50px;
     }
     .top-text {
         width: 310px;
-        font-size: 18px;
+        font-size: 20px;
+        text-align: center;
     }
 }
 
@@ -35,9 +36,12 @@
     .top-right {
         width: 250px;
      }
+    .computer {
+        
+    }
  }
 
- 
+
 
 
 
@@ -80,10 +84,19 @@
 @media (max-width: 820px) {
     .block {
     width: 250px;
-    height: 350px;
-      
+    height: 350px; 
     }
 }
+
+
+@media (max-width: 320px) {
+    .block {
+    flex-direction: column; 
+    align-items: center;
+    
+    }
+}
+
 
 @media (max-width: 820px) {
     .block:nth-child(1), 
@@ -93,6 +106,8 @@
     .block:nth-child(5), 
     .block:nth-child(6) {
         margin-bottom: 20px; 
+        flex-direction: column; 
+        align-items: center;
     }
     .div-text1 {
         font-size: 10px;
