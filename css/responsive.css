@@ -1,0 +1,45 @@
+@media (max-width: 1024px) {
+    .nav-list {
+   display: none;
+    }
+    .chevron {
+    display: block;
+    }
+}
+
+
+
+@media (max-width: 760px) {
+    .top-right {
+        display: flex;
+        width: 150px;
+        flex-wrap: wrap;
+     }
+ }
+
+
+@media (max-width: 550px) {
+    .main-head {
+        width: 350px;
+        font-size: 40px;
+    }
+    .top-text {
+        width: 310px;
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 1100px) {
+    .block:nth-child(6) {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+}
+
+@media (max-width: 1200px) {
+    .container {
+        flex-wrap: wrap;
+    }
+
+}

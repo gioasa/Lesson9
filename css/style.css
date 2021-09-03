@@ -7,7 +7,7 @@
 
 .nav-top {
     display: flex;
-    transform: translate(-30%);
+    margin-right: 70px;
 }
 
 .nav-list {
@@ -191,3 +191,15 @@
     color: #4B647E;
 }
 
+
+
+/* logos */
+.chevron {
+    color: orange;
+    font-size: 30px;
+    display: none;
+}
+
+.chevron:hover {
+    color: gray;
+}
